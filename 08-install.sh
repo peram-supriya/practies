@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if [ $USERID == 0 ]; then
+if [ $USERID -nq 0 ]; then
     echo "Running as root user"
     exit 1
 
