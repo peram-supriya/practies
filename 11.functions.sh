@@ -19,7 +19,7 @@ validate(){
 fi
 }
 
-dnf install nginx -y
+dnf install nginxw -y
 validate $? "nginx installation"
 
 dnf install mysql -y
