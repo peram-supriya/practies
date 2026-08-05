@@ -14,4 +14,4 @@ if [ $NUM2 == suresh ]; then
 fi
 
 echo "Hi $NUM2 how are you"
-echo "Hi $NUM1 i am fine. how are you"
+echo "Hi $NUM1 i am fine. how do doing
