@@ -1,5 +1,5 @@
-!#/bin/bash
+#!/bin/bash
 
 dnf install nginx -y
 
-echo "heello"
+echo "hello"
