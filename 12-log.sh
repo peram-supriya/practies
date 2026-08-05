@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 LOG_folder="/var/log/practies"
-LOG_FILE="/var/log/practies/practies.log"
+LOG_FILE="/var/log/practies/$0.log"
 
 if [ $USERID -ne 0 ]; then
     echo "Running as root user"
