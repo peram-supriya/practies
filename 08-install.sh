@@ -2,9 +2,10 @@
 
 USERID=$(id -u)
 
-if [ $USERID -ne 0 ]; then
-    echo "print as root user need to run this script"
+if [ $USERID == 0 ]; then
+    echo "Running as root user"
     exit 1
+
 
 fi
 
